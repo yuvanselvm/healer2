@@ -1,0 +1,14 @@
+{
+  "name": "healer",
+  "version": "1.0.0",
+  "description": "this is a alert app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --trace-warnings"
+  },
+  "author": "yuvan",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.2.1"
+  }
+}
