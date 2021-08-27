@@ -1,13 +1,12 @@
-const { app, BrowserWindow } = require("electron");
+const { app, BrowserWindow, Screen } = require("electron");
 
 function createWindow() {
   const win = new BrowserWindow({
-    height: 500,
+    height: 600,
     width: 1000,
+    resizable: false
   });
-
-  //win.loadFile("homepage2.html");
-  win.loadURL('https://google.com');
+  win.loadFile("./html/homepage.html");
 }
 
 app.whenReady().then(() => {

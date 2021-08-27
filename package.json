@@ -7,7 +7,7 @@
     "start": "electron . --trace-warnings"
   },
   "author": "yuvan",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^13.2.1"
   }
